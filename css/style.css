@@ -1,0 +1,42 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1170px;
+  min-height: 100vh;
+  padding: 15px;
+  color: #fff;
+  background-color: #4fb7e794;
+}
+
+h1 {
+  margin: 20px auto 20px 5px;
+}
+
+h2 {
+  margin: 20px auto 20px 5px;
+}
+
+img {
+  display: block;
+  margin: 20px auto;
+  max-width: 75%;
+  max-height: 1000px;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  min-width: 150px;
+  min-height: 50px;
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  background-color: #a07000;
+  border-radius: 10px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
