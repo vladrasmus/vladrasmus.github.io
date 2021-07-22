@@ -8,8 +8,6 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
-/* Исправлен заголовок h1 (убран margin 0.67em т.к. переопределял стиль) */
-
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -41,7 +39,7 @@ main {
 
 h1 {
   font-size: 2em;
-  margin: 0 0;
+  margin: 0;
 }
 
 /* Grouping content
