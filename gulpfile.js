@@ -35,6 +35,7 @@ const rename = require("gulp-rename");
 const autoprefixer = require("gulp-autoprefixer");
 const cleanCSS = require("gulp-clean-css");
 const del = require("del");
+const fontsConv = require("gulp-ttf2woff2");
 
 gulp.task("server",  function() {
   browserSync.init({
@@ -84,6 +85,7 @@ gulp.task("otherFiles", function() {
 
 gulp.task("fonts", function() {
   return src(path.src.fonts)
+    .pipe(fontsConv())
     .pipe(dest(path.build.fonts));
 });
 
